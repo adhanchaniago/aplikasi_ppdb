@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^beranda index.php?halaman=beranda [NC,L]
+RewriteRule ^daftar index.php?halaman=daftar [NC,L]
+RewriteRule ^bukti-pendaftaran index.php?halaman=bukti-pendaftaran [NC,L]
+RewriteRule ^kartu-peserta index.php?halaman=kartu-peserta [NC,L]
+RewriteRule ^pengumuman-kelulusan index.php?halaman=pengumuman-kelulusan [NC,L]
+RewriteRule ^print-kartu print-kartu.php [NC,L]
+RewriteRule ^print-bukti print-bukti.php [NC,L]
+RewriteRule ^print-pengumuman print-pengumuman.php [NC,L]
+RewriteRule ^tutup index.php?halaman=tutup [NC,L]
+RewriteRule ^pengumuman index.php?halaman=pengumuman [NC,L]
+RewriteRule ^panduan index.php?halaman=panduan [NC,L]
+RewriteRule ^informasi index.php?halaman=informasi [NC,L]
+
+RewriteRule ^detail-([0-9a-zA-Z_-]+) ro-detail-info.php?detail=$1  [NC,L]
+
+</IfModule>
+
