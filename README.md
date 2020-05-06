@@ -1,10 +1,11 @@
-# aplikasi_ppdb
+# aplikasi pendaftaran siswa/siswi baru
 
-Rancang Bangun Sistem Pendaftaran Siswa Baru
 
--Bootstrap
--PHP Native
+- Bootstrap
+- PHP Native
 
 
 Fitur
 - Calon Pendaftar dapat mendaftarkan 
+- Calon pendaftar menerima mendapatkan kode pendaftaran
+- Admin dapat menutup pendaftaran 
